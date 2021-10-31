@@ -1,0 +1,275 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+h2 {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+hr {
+	border-color:#E1DFDF;
+}
+a:link {
+    text-decoration: none;
+}
+
+a {
+	color:#fff;
+}
+
+a:hover {
+	color: white;
+}
+
+/*icons */
+#factsheet {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    background: rgba( 255, 255, 255, 0.20 );
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+
+	#factsheet .col-md-3 {
+		padding: 10px;
+
+	}
+
+.text-list .ftitle{
+	font-weight: 400;
+	font-size: 20px;
+
+}
+
+.text-list .feature-title{
+	font-size: 16px;
+	padding: 5px;
+    list-style-position: inside;
+    text-indent: -30px;
+    padding-left: 1em;
+}
+
+	.text-list .feature-title:before{
+		font-family: 'Glyphicons Halflings';
+		padding-right: 10px;
+	}
+
+.text-list #benefits:before {
+	content: "\e009";
+}
+.text-list #sync:before{
+	content: "\e031";
+}
+.text-list #polymedia:before{
+	content: "\e158";
+}
+
+.text-list #talk:before{
+	content: "\e111";
+}
+
+.text-list #karaoke:before{
+	content: "\e002";
+}
+
+
+.text-list #voting:before{
+	content: "\e013";
+}
+
+.text-list #connect{
+	text-indent: -15px;
+}
+
+.text-list #connect .ftitle{
+	padding-left: 7px;
+}
+
+
+
+
+
+/* Branding*/
+
+.brandimg {
+	width: 100%;
+	height: auto;
+}
+
+.btn-dark{
+	background-color: black;
+}
+
+.btn-dark:hover{
+	background-color: rgb(46, 46, 46);
+}
+
+#download-button {
+	padding: 10px;
+}
+
+	#download {
+		font-size:16px;
+		color: #ed1c24;
+		padding: 5px;
+	}
+
+/* Screenshots */
+.landscape img{
+	height: 300px;
+	width: auto;
+}
+.portrait img {
+	height: 400px;
+	width: auto;
+}
+
+	.landscape img:hover {
+		opacity: 0.7;
+	}
+
+	.portrait img:hover {
+		opacity: 0.7;
+	}
+
+.screenshot li{
+	display: inline-block;
+	padding: 10px;
+}
+
+#screenshots-content{
+	margin: 50px 0px 50px 0px;
+}
+
+#screenshots{
+  margin: 0px 3px 0px 0px;
+}
+/* Press */
+#press-content{
+	margin: 50px 0px 50px 0px;
+}
+
+#press{
+	margin: 0px 20px 0px 0px;
+}
+
+	.pressitem {
+		margin: 10px;
+	}
+		.pressitem img {
+			padding: 5px;
+			margin: 30px 0px 30px 0px;
+			-o-transition:.5s;
+    		-ms-transition:.5s;
+   		 	-moz-transition:.5s;
+   		 	-webkit-transition:.5s;
+    		transition:.5s;
+		}
+		.pressitem img:hover {
+			opacity: 0.7;
+		}
+
+/*download all box*/
+#download-all {
+	background-color: #E5E3E3;
+	border-radius: 5px;
+	border-color: #E5E3E3;
+	padding: 10px;
+	margin: 0px;
+}
+
+#download {
+	padding: 0px 0px 50px 0px;
+}
+	#download p, #download h2{
+		text-align: bottom;
+		/*color: #231f20;*/
+	}
+	#download h2 {
+		font-weight: 400;
+	}
+
+
+
+
+
+
+/* Phone screen sizing */
+@media only screen and (max-width: 899px) {
+	.pressitem img{
+		height: 50px;
+		max-width: 320px;
+	}
+
+	h2, h3, p, li, span{
+		font-size: 100%;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	a {
+		font-size: 100%;
+	}
+	.caption {
+		font-size: 100%;
+	}
+	.text-list .feature-title {
+		font-size: 100%;
+	}
+	.text-list .ftitle {
+		font-size: 100%;
+	}
+	.section-title {
+		font-size: 30px;
+	}
+	.sub {
+		font-size: 25px;
+	}
+
+	#footer-text {
+		font-size: 100%;
+	}
+
+	p{
+		padding: 0 10px;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.pressitem img{
+		height: 50px;
+		width: auto;
+	}
+}
+
+.btn-secondary {
+	padding: 20px;
+}
+
+.fa {
+  color: #fff;
+}
+#webappmarket {
+	height: 120px;
+}
